@@ -12,6 +12,8 @@ python manage.py startapp <name>  - python manage.py startapp products
 python manage.py makemigrations
 python manage.py migrate
 
+python manage.py createsuperuser
+
 #Do the follwing
 1)update your app name in settings.py file in installed apps[]
 2) create your model in moels.py
